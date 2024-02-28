@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="gallery.css">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <div class="full-image" id="fullImgBox">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/12/SE/HI/JS/118516814/pos-software-development-services-500x500.jpeg" id="fullImg">
+            <span onclick="closeFullImg()">x</span>
+        </div>
+        
+        <div class="img-gallery">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/12/SE/HI/JS/118516814/pos-software-development-services-500x500.jpeg" onclick="openFullImg(this.src)">
+            <img src="https://5.imimg.com/data5/ANDROID/Default/2023/3/WN/GG/UV/94402270/product-jpeg-500x500.jpg" onclick="openFullImg(this.src)">
+            <img src="https://5.imimg.com/data5/ANDROID/Default/2021/9/XH/RH/WC/46611129/product-jpeg-500x500.jpg" onclick="openFullImg(this.src)">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/12/NY/AZ/FN/16571119/loan-management-software-500x500.jpg" onclick="openFullImg(this.src)">
+            <img src="https://pub-static.fotor.com/assets/projects/pages/d9b43d54fd794a57ba23b2c681117179/600w/web-design-poster-458b3cd4a3ce4d9c800a4b8489a5cd58.jpg" onclick="openFullImg(this.src)">
+            <img src="https://dryuc24b85zbr.cloudfront.net/tes/resources/6134931/image?width=500&height=500&version=1321108822000" onclick="openFullImg(this.scr)">
+        
+            
+        </div>
+        <script>
+          var fullImgBox = document.getElementById("fullImgBox");  
+           var fullImg = document.getElementById("fullImg") ;
+           
+           function openFullImg(pic){
+               fullImgBox.style.display ="flex";
+               fullImg.src = pic;
+           }
+        </script>
+    <center>
+        <a href="index.html"><b><font size="5">Back To Home Page</font></b></a><br><br>
+    </center>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style2.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+    <center>
+        <div class="wrapper">
+            <form action="insertdata.jsp">
+           
+            <h1>Employee Registration form</h1>
+             <div class="input-box">
+                Enter ID:<input type="text" name="id" value="" required /> 
+                
+            </div>
+             <div class="input-box">
+                 Enter working location:<select name="location" required /> 
+                     <option value="pune">pune</option>
+                     <option value="Amravati">Amravati</option>
+                     <option value="usa">USA</option>
+                     <option value="Banglore">Banglore</option>
+                 </select> 
+                
+            </div>
+             <div class="input-box">
+                 Enter Email ID:<input type="text" name="email"  value="" required />
+                
+             </div>
+             <div class="input-box">
+                Select Gender:<input type="radio" name="gender" value="male" />Male<input type="radio" name="gender" value="female" />Female
+              
+            </div>
+             <div class="input-box">
+                Enter mobile No:<input type="text" name="mobileno" value="" required /> 
+               
+            </div>
+           
+           
+            <div class="input-box">
+                Enter salary:<input type="text" name="salary" value="" required /> 
+               
+            </div>
+           
+            
+            <div class="input-box">
+                Enter city:<select name="city">
+                    <option value="Amravati">Amravati</option>
+                    <option value="nashik">Nashik</option>
+                    <option value="Amravati">pune</option>
+                </select>
+            </div>
+            <div class="input-box">
+                Enter Username:<input type="text" name="username" value="" required /> 
+                
+            </div>
+            <div class="input-box">
+                Enter Password:<input type="password" name="password" value="" required />
+                
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="forgot.html">Forgot Password</a>
+            </div>
+           
+            
+             <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </center>
+    </body>
+</html>
+
